@@ -20,9 +20,10 @@ not be moved merely to make a later project look more symmetrical.
 
 Repository-level files are shared infrastructure only:
 
-- `/index.html` is a convenience redirect to the current primary project, not a separate personal
-  or project-index website. Public references should use the project's direct URL.
-- `/404.html`, `/robots.txt`, and `/sitemap.xml` apply to the entire GitHub Pages site.
+- There is intentionally no `/index.html`. The root URL returns the neutral 404 page, and every
+  public reference must use a project's direct URL.
+- `/404.html` is project-neutral; `/robots.txt` and `/sitemap.xml` apply to the entire GitHub Pages
+  site.
 - `/.nojekyll` keeps deployment as direct static-file hosting.
 
 Current PopTrans paths:
