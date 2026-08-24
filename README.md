@@ -1,9 +1,15 @@
 # ywhdt.github.io
 
-Static GitHub Pages source for project websites published under `https://ywhdt.github.io/`.
+Static source for project websites published under `https://ywhdt.github.io/`.
 
-The repository is organized for multiple independent projects. Each project owns a permanent
-top-level directory and all of its public pages and assets:
+## Projects
+
+- [PopTrans](https://ywhdt.github.io/poptrans/) — Simplified Chinese by default, with English under `/poptrans/en/`.
+- [Skinfold](https://ywhdt.github.io/skinfold/) — English by default, with Simplified Chinese and Japanese locale paths.
+
+The root URL intentionally has no project homepage and returns a neutral 404 page.
+
+## Layout
 
 ```text
 /<project>/
@@ -14,42 +20,13 @@ top-level directory and all of its public pages and assets:
 └── assets/
 ```
 
-Each project chooses its permanent default language at `/<project>/`; other languages use explicit
-locale directories. Localized support and privacy pages stay under the same locale directory. A
-project may retain compatibility aliases such as `/<project>/en/`, but their canonical metadata
-must point to the project's canonical language URLs. A project may omit a page that it does not
-need, but published URLs must not be moved merely to make a later project look more symmetrical.
+Each project owns a permanent lowercase directory and keeps its pages and assets inside it. The
+project root is its default language; other languages use explicit locale directories. Published
+URLs remain stable.
 
-Repository-level files are shared infrastructure only:
+`404.html`, `robots.txt`, `sitemap.xml`, and `.nojekyll` are shared site infrastructure.
 
-- There is intentionally no `/index.html`. The root URL returns the neutral 404 page, and every
-  public reference must use a project's direct URL.
-- `/404.html` is project-neutral; `/robots.txt` and `/sitemap.xml` apply to the entire GitHub Pages
-  site.
-- `/.nojekyll` keeps deployment as direct static-file hosting.
+## Publishing
 
-Current PopTrans paths:
-
-- Chinese product page: https://ywhdt.github.io/poptrans/
-- Chinese support: https://ywhdt.github.io/poptrans/support/
-- Chinese privacy policy: https://ywhdt.github.io/poptrans/privacy/
-- English product page: https://ywhdt.github.io/poptrans/en/
-- English support: https://ywhdt.github.io/poptrans/en/support/
-- English privacy policy: https://ywhdt.github.io/poptrans/en/privacy/
-
-Current Skinfold paths:
-
-- English product page: https://ywhdt.github.io/skinfold/
-- English support: https://ywhdt.github.io/skinfold/support/
-- English privacy policy: https://ywhdt.github.io/skinfold/privacy/
-- Simplified Chinese product page: https://ywhdt.github.io/skinfold/zh-Hans/
-- Japanese product page: https://ywhdt.github.io/skinfold/ja/
-- Existing English aliases remain available under https://ywhdt.github.io/skinfold/en/
-
-For a future project, choose a permanent lowercase ASCII slug such as `caption`, create its own
-top-level directory, keep its assets inside that directory, and add only completed public pages to
-`sitemap.xml`. Do not create empty placeholder projects or reuse another project's assets as shared
-site infrastructure.
-
-The site has no build step, JavaScript, analytics, trackers, or external font dependency. Publish
-the `main` branch from the repository root with GitHub Pages.
+GitHub Pages publishes direct static files from the `main` branch and repository root. There is no
+build step. Add only completed canonical pages to the shared `sitemap.xml`.
