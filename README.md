@@ -8,15 +8,17 @@ top-level directory and all of its public pages and assets:
 ```text
 /<project>/
 ├── index.html
-├── en/index.html
+├── <locale>/index.html
 ├── support/index.html
 ├── privacy/index.html
 └── assets/
 ```
 
-English support and privacy pages live at `/<project>/en/support/` and
-`/<project>/en/privacy/`. A project may omit a page that it does not need, but published URLs must
-not be moved merely to make a later project look more symmetrical.
+Each project chooses its permanent default language at `/<project>/`; other languages use explicit
+locale directories. Localized support and privacy pages stay under the same locale directory. A
+project may retain compatibility aliases such as `/<project>/en/`, but their canonical metadata
+must point to the project's canonical language URLs. A project may omit a page that it does not
+need, but published URLs must not be moved merely to make a later project look more symmetrical.
 
 Repository-level files are shared infrastructure only:
 
@@ -34,6 +36,15 @@ Current PopTrans paths:
 - English product page: https://ywhdt.github.io/poptrans/en/
 - English support: https://ywhdt.github.io/poptrans/en/support/
 - English privacy policy: https://ywhdt.github.io/poptrans/en/privacy/
+
+Current Skinfold paths:
+
+- English product page: https://ywhdt.github.io/skinfold/
+- English support: https://ywhdt.github.io/skinfold/support/
+- English privacy policy: https://ywhdt.github.io/skinfold/privacy/
+- Simplified Chinese product page: https://ywhdt.github.io/skinfold/zh-Hans/
+- Japanese product page: https://ywhdt.github.io/skinfold/ja/
+- Existing English aliases remain available under https://ywhdt.github.io/skinfold/en/
 
 For a future project, choose a permanent lowercase ASCII slug such as `caption`, create its own
 top-level directory, keep its assets inside that directory, and add only completed public pages to
