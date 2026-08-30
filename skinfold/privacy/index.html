@@ -11,7 +11,7 @@
   <link rel="alternate" hreflang="ja" href="https://ywhdt.github.io/skinfold/ja/privacy/">
   <link rel="alternate" hreflang="x-default" href="https://ywhdt.github.io/skinfold/privacy/">
   <link rel="icon" href="/skinfold/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/skinfold/assets/site.css">
+  <link rel="stylesheet" href="/skinfold/assets/site.css?v=20260830">
 </head>
 <body>
   <header class="site-header">
@@ -33,8 +33,8 @@
     <section class="hero">
       <p class="eyebrow">Privacy policy</p>
       <h1>Privacy Policy</h1>
-      <p class="updated">Effective date: July 12, 2026</p>
-      <p class="lede">Skinfold does not require an account. All calculations and history records are processed on your device; the developer does not collect data or track you.</p>
+      <p class="updated">Effective date: August 30, 2026 · Applies to version 1.3 and later</p>
+      <p class="lede">Skinfold does not require an account. Calculations and local history stay on your device. You can choose to add one final body fat percentage estimate to Apple Health; the developer does not collect data or track you.</p>
     </section>
 
     <article class="card">
@@ -43,16 +43,20 @@
       <h2>1. How data is processed</h2>
       <p>To estimate body fat percentage, the app processes the sex you select and the age and readings from three skinfold sites you enter on your device. It then generates a body fat percentage, reference category, and any retake guidance. The app writes the sex, age, sum of the three site averages, body fat percentage, category, and measurement date to local history only when you choose Save to history. Individual raw readings are not saved.</p>
 
-      <h2>2. Data collection and sharing</h2>
-      <p>None of this information is sent to the developer or third parties. The app has no accounts, ads, analytics, cloud sync, or remote services; it does not integrate with HealthKit and does not track you.</p>
+      <h2>2. Optional Apple Health write</h2>
+      <p>After a calculation, you can explicitly choose Add to Apple Health. Skinfold requests write permission only for body fat percentage and does not request or read HealthKit data. If you allow the write, iOS stores the final estimate, measurement time, and Skinfold as the source in HealthKit. Skinfold does not write your sex, age, reference category, local history, or individual skinfold readings, and it does not automatically sync or backfill earlier results.</p>
 
-      <h2>3. Delete data</h2>
-      <p>You can delete an individual record on the History page, or choose Clear history to delete all history. History is excluded from system backups; deleting the app removes the remaining local data.</p>
+      <h2>3. Data collection and sharing</h2>
+      <p>Skinfold does not send your entries, estimates, local history, or HealthKit data to the developer, advertisers, analytics providers, or other third-party services. The app has no accounts, ads, analytics, developer-operated cloud sync, or remote service, and it does not track you. Apple Health is an Apple system service. Depending on your Apple and iCloud settings, Apple may store or sync HealthKit data between your devices; the developer cannot access that data. Skinfold does not use health data for advertising, marketing, or data mining.</p>
 
-      <h2>4. Website</h2>
+      <h2>4. Manage and delete data</h2>
+      <p>You can delete an individual local record on the History page, or choose Clear history to delete all local history. Local history is excluded from system backups; deleting the app removes the remaining local history.</p>
+      <p>Local history and Apple Health samples are separate. Deleting one does not delete the other. Use the Health app to view or delete a sample, and use Apple Health or iOS Settings to manage Skinfold's permission. Deleting Skinfold does not automatically remove samples already added to Apple Health.</p>
+
+      <h2>5. Website</h2>
       <p>This Privacy Policy and the support pages are static pages with no ads or analytics scripts. They are hosted on GitHub Pages, so GitHub may process network request information needed to provide and protect that service. Measurement data from the app is not sent to this website or to GitHub.</p>
 
-      <h2>5. Updates and contact</h2>
+      <h2>6. Updates and contact</h2>
       <p>If the way data is processed changes materially, the developer will update this policy, its effective date, and the App Store privacy information.</p>
       <p>Developer: WENTIAN ZHANG. Email <a href="mailto:ywhdt_zh@outlook.com">ywhdt_zh@outlook.com</a>, or report an issue through <a href="https://github.com/ywhdt/body-fat-calculator-site/issues">GitHub Issues</a>. Do not include unnecessary personal health information in an email or public issue.</p>
     </article>

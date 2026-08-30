@@ -11,7 +11,7 @@
   <link rel="alternate" hreflang="ja" href="https://ywhdt.github.io/skinfold/ja/support/">
   <link rel="alternate" hreflang="x-default" href="https://ywhdt.github.io/skinfold/support/">
   <link rel="icon" href="/skinfold/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/skinfold/assets/site.css">
+  <link rel="stylesheet" href="/skinfold/assets/site.css?v=20260830">
 </head>
 <body>
   <header class="site-header">
@@ -44,10 +44,16 @@
       <h2>常见问题</h2>
 
       <h3>无法计算？</h3>
-      <p>请按输入框下方的提示检查年龄和读数。每个部位需至少输入两次读数，用空格或分号分隔。三处平均读数总和超过 120 mm 时，应用不提供估算。</p>
+      <p>请按输入框下方的提示检查年龄和读数。每个部位有一次有效读数即可计算；若要比较一致性，可再添加第二或第三次读数。测量单位可在毫米与英寸之间切换。三处平均读数总和超过 120 mm（4.724 in）时，应用不提供估算。</p>
 
       <h3>为什么结果与其他测量不同？</h3>
       <p>测量位置、力度、时间和计算公式都会影响结果。请尽量由同一人在相同条件下测量，并主要观察长期趋势；若结果页提示读数差异较大，建议重新测量。详细限制请查看应用内的“说明”页。</p>
+
+      <h3>Apple 健康如何工作？</h3>
+      <p>完成计算后，你可以主动点击“添加到 Apple 健康”。首次添加时，系统会请求体脂率写入权限。Skinfold 不读取 HealthKit 数据，也不会添加皮褶原始读数、年龄、性别、分类或本地历史。每个部位只有一次读数时可以添加；同一部位有两次及以上读数时，差异超过 3 mm（0.118 in）需要先复测。</p>
+
+      <h3>拒绝了权限，或想删除样本怎么办？</h3>
+      <p>请在“健康”App 或 iOS“设置”中管理 Skinfold 的访问权限，并在“健康”App 中查看或删除已经添加的样本。Apple 健康样本与 Skinfold 本地历史彼此独立，拒绝权限或删除其中一处不会改变另一处。</p>
 
       <h3>如何删除历史记录？</h3>
       <p>在“历史记录”中删除单条记录，或点击工具栏中的“清空”删除全部记录。</p>
