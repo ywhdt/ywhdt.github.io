@@ -4,6 +4,8 @@ Static source for project websites published under `https://ywhdt.github.io/`.
 
 ## Projects
 
+- [Audelue](https://ywhdt.github.io/audelue/) — macOS captions; Simplified Chinese by default, with English under `/audelue/en/`.
+
 - [PopTrans](https://ywhdt.github.io/poptrans/) — Simplified Chinese by default, with English under `/poptrans/en/`.
 - [Skinfold](https://ywhdt.github.io/skinfold/) — English by default, with Simplified Chinese and Japanese locale paths.
 
