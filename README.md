@@ -4,6 +4,8 @@ Static source for project websites published under `https://ywhdt.github.io/`.
 
 ## Projects
 
+- [CalPace](https://ywhdt.github.io/calpace/) — iOS nutrition logging; Simplified Chinese home, support and privacy pages.
+
 - [Audelue](https://ywhdt.github.io/audelue/) — macOS captions; Simplified Chinese by default, with English under `/audelue/en/`.
 
 - [PopTrans](https://ywhdt.github.io/poptrans/) — Simplified Chinese by default, with English under `/poptrans/en/`.
