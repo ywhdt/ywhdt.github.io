@@ -24,6 +24,9 @@ The root URL intentionally has no project homepage and returns a neutral 404 pag
 └── assets/
 ```
 
+CalPace public pages stay concise: product overview, essential support and privacy details only.
+Keep price amounts, development notes and detailed testing instructions in the CalPace app repository.
+
 Each project owns a permanent lowercase directory and keeps its pages and assets inside it. The
 project root is its default language; other languages use explicit locale directories. Published
 URLs remain stable.
