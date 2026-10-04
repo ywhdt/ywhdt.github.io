@@ -6,19 +6,19 @@
   <meta name="description" content="How Audelue handles audio, local history, cloud services, purchases, and data deletion.">
   <meta name="theme-color" content="#f5f8f7" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#101a1a" media="(prefers-color-scheme: dark)">
-  <title>Audelue Privacy Policy</title>
-  <link rel="canonical" href="https://ywhdt.github.io/audelue/en/privacy/">
-  <link rel="alternate" hreflang="zh-Hans" href="https://ywhdt.github.io/audelue/privacy/">
-  <link rel="alternate" hreflang="en" href="https://ywhdt.github.io/audelue/en/privacy/">
-  <link rel="alternate" hreflang="x-default" href="https://ywhdt.github.io/audelue/privacy/">
+  <title>Audelue Internal Testing Privacy Policy</title>
+  <link rel="canonical" href="https://ywhdt.github.io/audelue/en/internal/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://ywhdt.github.io/audelue/internal/privacy/">
+  <link rel="alternate" hreflang="en" href="https://ywhdt.github.io/audelue/en/internal/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://ywhdt.github.io/audelue/internal/privacy/">
   <link rel="icon" type="image/png" href="/audelue/assets/app-icon-128.png">
   <link rel="stylesheet" href="/audelue/assets/site.css?v=20260912">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Audelue">
   <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="Audelue Privacy Policy">
+  <meta property="og:title" content="Audelue Internal Testing Privacy Policy">
   <meta property="og:description" content="How Audelue handles audio, local history, cloud services, purchases, and data deletion.">
-  <meta property="og:url" content="https://ywhdt.github.io/audelue/en/privacy/">
+  <meta property="og:url" content="https://ywhdt.github.io/audelue/en/internal/privacy/">
   <meta property="og:image" content="https://ywhdt.github.io/audelue/assets/app-icon.png">
   <meta property="og:image:alt" content="Audelue">
   <meta name="twitter:card" content="summary">
@@ -27,14 +27,14 @@
 <a class="skip-link" href="#main">Skip to main content</a>
 <header class="site-header"><div class="header-inner">
   <a class="brand" href="/audelue/en/" aria-label="Audelue home"><img src="/audelue/assets/app-icon-128.png" alt="" width="36" height="36"><span>Audelue</span></a>
-  <nav aria-label="Main navigation"><a href="/audelue/en/">Home</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/privacy/" aria-current="page">Privacy</a><a class="language" href="/audelue/privacy/" hreflang="zh-Hans" lang="zh-Hans">中文</a></nav>
+  <nav aria-label="Main navigation"><a href="/audelue/en/">Home</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/internal/privacy/" aria-current="page">Privacy</a><a class="language" href="/audelue/internal/privacy/" hreflang="zh-Hans" lang="zh-Hans">中文</a></nav>
 </div></header>
 <main id="main" class="page-shell">
   <header id="scope" class="page-intro">
     <p class="eyebrow">PRIVACY</p>
     <p>Effective date: <time datetime="2026-10-05">October 5, 2026</time></p>
-    <h1>Audelue Privacy Policy</h1>
-    <p>This policy covers Audelue’s local processing and Pro cloud services.</p>
+    <h1>Audelue Internal Testing Privacy Policy</h1>
+    <p>This policy covers the Audelue internal testing version distributed through TestFlight.</p>
     <p>Local processing requires no registration. With cloud Pro, you do not enter a provider API key. We verify App Store ownership to associate your cloud balance.</p>
   </header>
   <article class="document">
@@ -43,9 +43,9 @@
       <p>The app does not save recordings. Settings, keywords and translation preferences stay on your device. With history enabled, source captions, translations and related session information are kept until you delete them, for viewing and export. This history is not automatically synced to the cloud.</p>
     </section>
     <section aria-labelledby="cloud"><h2 id="cloud">2. When you use cloud Pro</h2>
-      <p>Pro sends audio through Audelue’s servers to Soniox for transcription. Real-time translation uses Soniox; Quality translation sends the relevant text to DeepSeek. DeepSeek does not receive audio from this route.</p>
+      <p>This internal TestFlight build sends audio through Audelue’s servers to the selected Soniox or Microsoft MAI service. Real-time translation uses Soniox; text translation uses the selected DeepSeek or Google Gemini service.</p>
       <p>Relevant languages, limited preceding context, keywords and translation preferences are also sent to the selected provider. Audelue’s servers hold audio and caption content temporarily for processing and do not save it as server history. Cloud connections use encrypted transport; device authorization credentials are protected by macOS Keychain.</p>
-      <p>Our cloud infrastructure is hosted by Microsoft Azure. Cloud processing may take place outside your country or region. Model providers process and retain received data under their own policies, separately from Audelue’s retention policy. Please review the relevant information before enabling cloud processing: <a href="https://soniox.com/policies/privacy-policy">Soniox</a> · <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">DeepSeek</a>.</p>
+      <p>Our cloud infrastructure is hosted by Microsoft Azure. Cloud processing may take place outside your country or region. Model providers process and retain received data under their own policies, separately from Audelue’s retention policy. Please review the relevant information before enabling cloud processing: <a href="https://soniox.com/policies/privacy-policy">Soniox</a> · <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">DeepSeek</a> · <a href="https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/data-privacy-security">Microsoft Speech</a> · <a href="https://ai.google.dev/gemini-api/terms">Google Gemini</a>.</p>
     </section>
     <section aria-labelledby="account"><h2 id="account">3. Cloud balance and purchases</h2>
       <p>We use app and purchase verification information provided by Apple to associate your balance. We keep necessary transaction, time usage, once-only trial and device authorization records to restore unused time, handle refunds and prevent duplicate purchase or trial credits. These records do not include audio, captions or translation preference content. Necessary records are retained while we provide these services.</p>
@@ -67,6 +67,6 @@
     </section>
   </article>
 </main>
-<footer class="site-footer"><div class="footer-inner"><span>© 2026 ZHANG WENTIAN · Audelue</span><nav aria-label="Footer navigation"><a href="mailto:wentianzh.apps@outlook.com">wentianzh.apps@outlook.com</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/privacy/">Privacy</a></nav></div></footer>
+<footer class="site-footer"><div class="footer-inner"><span>© 2026 ZHANG WENTIAN · Audelue</span><nav aria-label="Footer navigation"><a href="mailto:wentianzh.apps@outlook.com">wentianzh.apps@outlook.com</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/internal/privacy/">Privacy</a></nav></div></footer>
 </body>
 </html>
