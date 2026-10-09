@@ -31,6 +31,10 @@ Each project owns a permanent lowercase directory and keeps its pages and assets
 project root is its default language; other languages use explicit locale directories. Published
 URLs remain stable.
 
+Legacy Skinfold URLs under `/body-fat-calculator-site/` are served by static compatibility
+pages with canonical links to `/skinfold/`. Keep these pages out of the sitemap. Skinfold's
+public GitHub support links now use this repository's Issues, with `[Skinfold]` in new titles.
+
 `404.html`, `robots.txt`, `sitemap.xml`, and `.nojekyll` are shared site infrastructure.
 
 ## Publishing
