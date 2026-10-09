@@ -31,8 +31,8 @@ Each project owns a permanent lowercase directory and keeps its pages and assets
 project root is its default language; other languages use explicit locale directories. Published
 URLs remain stable.
 
-Static compatibility pages under `/body-fat-calculator-site/` are ready to take over legacy
-Skinfold URLs once the old project repository is deleted. Their canonical links point to
+Static compatibility pages under `/body-fat-calculator-site/` serve legacy Skinfold URLs
+after the old project repository was deleted on 2026-10-10. Their canonical links point to
 `/skinfold/`; keep these pages out of the sitemap. Skinfold's
 public GitHub support links now use this repository's Issues, with `[Skinfold]` in new titles.
 
