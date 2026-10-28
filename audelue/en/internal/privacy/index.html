@@ -33,39 +33,36 @@
 <main id="main" class="page-shell">
   <header id="scope" class="page-intro">
     <p class="eyebrow">PRIVACY</p>
-    <p>Effective date: <time datetime="2026-10-05">October 5, 2026</time></p>
+    <p>Updated: <time datetime="2026-10-29">October 29, 2026</time></p>
     <h1>Audelue Internal Testing Privacy Policy</h1>
-    <p>This policy covers the Audelue internal testing version distributed through TestFlight.</p>
-    <p>Local processing requires no registration. With cloud Pro, you do not enter a provider API key. We verify App Store ownership to associate your cloud balance.</p>
+    <p>For the Audelue internal version distributed through TestFlight.</p>
   </header>
-  <nav class="contents" aria-label="On this page"><a href="#audio">1. Audio and local history</a><a href="#cloud">2. When you use cloud Pro</a><a href="#account">3. Cloud balance and purchases</a><a href="#controls">4. Your choices and deletion</a><a href="#other-services">5. Website and support</a><a href="#contact">6. Contact and updates</a></nav>
+  <nav class="contents" aria-label="On this page"><a href="#audio">1. Audio and history</a><a href="#cloud">2. Pro cloud processing</a><a href="#account">3. Balance and purchases</a><a href="#controls">4. Consent and deletion</a><a href="#other-services">5. Website and support</a><a href="#contact">6. Contact and updates</a></nav>
   <article class="document">
-    <section aria-labelledby="audio"><h2 id="audio">1. Audio and local history</h2>
-      <p>Audelue processes your selected system, app or microphone audio only after you start a session and grant the necessary permissions, for transcription and optional translation. Screen recording permission is used to capture audio, not screen video. Apple local mode processes audio and captions on your device without sending them to Audelue’s cloud service.</p>
-      <p>The app does not save recordings. Settings, keywords and translation preferences stay on your device. With history enabled, source captions, translations and related session information are kept until you delete them, for viewing and export. This history is not automatically synced to the cloud.</p>
+    <section aria-labelledby="audio"><h2 id="audio">1. Audio and history</h2>
+      <p>Audelue processes selected audio only after you start a session and grant permission. Local mode transcribes and translates on your device without uploading audio or captions. Screen recording permission captures audio only, not video.</p>
+      <p>The app does not save recordings. Settings stay on your Mac. With history enabled, captions and session information remain until you delete them, without automatic cloud sync.</p>
     </section>
-    <section aria-labelledby="cloud"><h2 id="cloud">2. When you use cloud Pro</h2>
-      <p>This internal TestFlight build sends audio through Audelue’s servers to the selected Soniox or Microsoft MAI service. Real-time translation uses Soniox; text translation uses the selected DeepSeek or Google Gemini service.</p>
-      <p>Relevant languages, limited preceding context, keywords and translation preferences are also sent to the selected provider. Audelue’s servers hold audio and caption content temporarily for processing and do not save it as server history. Cloud connections use encrypted transport; device authorization credentials are protected by macOS Keychain.</p>
-      <p>Our cloud infrastructure is hosted by Microsoft Azure. Cloud processing may take place outside your country or region. Model providers process and retain received data under their own policies, separately from Audelue’s retention policy. Please review the relevant information before enabling cloud processing: <a href="https://soniox.com/policies/privacy-policy">Soniox</a> · <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">DeepSeek</a> · <a href="https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/data-privacy-security">Microsoft Speech</a> · <a href="https://ai.google.dev/gemini-api/terms">Google Gemini</a>.</p>
+    <section aria-labelledby="cloud"><h2 id="cloud">2. Pro cloud processing</h2>
+      <p>With your consent, your device sends audio, language settings, and keywords directly to Soniox for transcription and optional Real-time translation. Quality translation sends source text, necessary context, and preferences through Audelue’s servers to DeepSeek or OpenAI. If the primary service fails, the other may receive the same text.</p>
+      <p>Internal testing also offers Microsoft MAI for direct audio transcription and Google Gemini for text translation through Audelue’s servers.</p>
+      <p>Audio bypasses Audelue’s servers; translation text is processed there temporarily, without being saved. Connections are encrypted and servers use Microsoft Azure. Processing may occur outside your country or region. Providers retain received data under their own policies: <a href="https://soniox.com/policies/privacy-policy">Soniox</a> · <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">DeepSeek</a> · <a href="https://developers.openai.com/api/docs/guides/your-data/">OpenAI</a> · <a href="https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/data-privacy-security">Microsoft Speech</a> · <a href="https://ai.google.dev/gemini-api/terms">Google Gemini</a>.</p>
     </section>
-    <section aria-labelledby="account"><h2 id="account">3. Cloud balance and purchases</h2>
-      <p>We use app and purchase verification information provided by Apple to associate your balance. We keep necessary transaction, time usage, once-only trial and device authorization records to restore unused time, handle refunds and prevent duplicate purchase or trial credits. These records do not include audio, captions or translation preference content. Necessary records are retained while we provide these services.</p>
-      <p>Apple handles purchases. We do not receive payment card details or read your Apple account email or password. Apple may provide diagnostics and feedback according to your system or TestFlight settings. See <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policy</a>.</p>
-      <p>For service reliability, we process limited failure categories, counts and timings, without audio, captions, prompts or API key content.</p>
+    <section aria-labelledby="account"><h2 id="account">3. Balance and purchases</h2>
+      <p>We link your balance using Apple app and purchase verification data. While providing the service, we keep necessary purchase, usage, trial, and device authorization records to restore unused time, handle refunds, and prevent duplicate credits. These records, and service status and error records, exclude audio, captions, and translation preference content.</p>
+      <p>Apple handles purchases. We receive no payment card details or Apple account email or password. See <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policy</a> for its diagnostics and data handling.</p>
     </section>
-    <section aria-labelledby="controls"><h2 id="controls">4. Your choices and deletion</h2>
-      <p>You can pause or end a session, withdraw consent to future cloud processing, or use Settings to revoke this device’s authorization or delete the cloud account. Withdrawing consent stops new cloud processing and keeps local history and remaining time. Turning history saving off does not delete existing history; individual sessions or all history can be deleted separately.</p>
-      <p>Deleting the cloud account ends cloud sessions and removes device ownership links and verification materials. Local history is kept. Necessary records for balance restoration, refunds and duplicate prevention, and necessary revocation records, remain. Old backup copies rotate out within seven days.</p>
-      <p>If you later choose to restore access, we verify App Store ownership again and restore only unused time. Consumed time and previously claimed trial time are not credited again. Ordinary startup and local mode do not automatically restore the cloud account.</p>
-      <p>Manage exported files and device backups separately. Uninstalling the app does not delete cloud records. Audelue cannot recall data already received by a provider; contact us if you wish to request deletion.</p>
+    <section aria-labelledby="controls"><h2 id="controls">4. Consent and deletion</h2>
+      <p>Withdraw consent in Settings → Cloud &amp; Privacy to stop new cloud processing while keeping history and remaining time. Delete history separately; turning saving off keeps existing records.</p>
+      <p>Contact us to unlink a device or delete the cloud account. Account deletion ends cloud sessions and removes device links and authorization data. Records needed for balance restoration, refunds, duplicate prevention, and security remain; old backups are removed within seven days.</p>
+      <p>Uninstalling the app keeps cloud records. Manage exports and device backups separately. Local deletion does not remove data already received by providers; contact us to request deletion.</p>
     </section>
     <section aria-labelledby="other-services"><h2 id="other-services">5. Website and support</h2>
-      <p>The app and website contain no advertising or usage analytics. The website uses GitHub Pages without tracking cookies. GitHub may process visit information to provide and protect hosting. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a>.</p>
-      <p>If you email support, the developer and email provider receive your address, message and attachments to handle the issue. These are kept as needed to resolve the issue or meet legal obligations. You can request deletion of support information.</p>
+      <p>The app and website have no advertising or usage analytics, and use no tracking cookies. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a> for the website host’s handling of visit information.</p>
+      <p>The developer and email provider receive support email addresses, messages, and attachments. These are kept as needed to resolve issues or meet legal obligations. Contact us to request deletion.</p>
     </section>
     <section aria-labelledby="contact"><h2 id="contact">6. Contact and updates</h2>
-      <p>This policy covers this version, intended for users aged 18 and older. The developer and operator is ZHANG WENTIAN. For privacy questions or requests to access, correct or delete relevant information, contact <a href="mailto:wentianzh.apps@outlook.com?subject=Audelue%20Privacy">wentianzh.apps@outlook.com</a>. Policy changes will be posted on this page.</p>
+      <p>Audelue is for users aged 18 and older, developed and operated by ZHANG WENTIAN. For access, correction, deletion, or privacy questions, email <a href="mailto:wentianzh.apps@outlook.com?subject=Audelue%20Privacy">wentianzh.apps@outlook.com</a>. Policy updates appear on this page.</p>
     </section>
   </article>
 </main>
