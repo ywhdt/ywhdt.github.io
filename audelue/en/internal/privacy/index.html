@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="How Audelue handles audio, local history, cloud services, purchases, and data deletion.">
-  <meta name="theme-color" content="#f5f8f7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#101a1a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#141c17">
   <title>Audelue Internal Testing Privacy Policy</title>
   <link rel="canonical" href="https://ywhdt.github.io/audelue/en/internal/privacy/">
   <link rel="alternate" hreflang="zh-Hans" href="https://ywhdt.github.io/audelue/internal/privacy/">
   <link rel="alternate" hreflang="en" href="https://ywhdt.github.io/audelue/en/internal/privacy/">
   <link rel="alternate" hreflang="x-default" href="https://ywhdt.github.io/audelue/internal/privacy/">
   <link rel="icon" type="image/png" href="/audelue/assets/app-icon-128.png">
-  <link rel="stylesheet" href="/audelue/assets/site.css?v=20260912">
+  <script src="/audelue/assets/site-theme.js?v=20261029-docs"></script>
+  <link rel="stylesheet" href="/audelue/assets/site.css?v=20261029-docs">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Audelue">
   <meta property="og:locale" content="en_US">
@@ -23,12 +23,13 @@
   <meta property="og:image:alt" content="Audelue">
   <meta name="twitter:card" content="summary">
 </head>
-<body>
+<body class="document-page">
 <a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header"><div class="header-inner">
-  <a class="brand" href="/audelue/en/" aria-label="Audelue home"><img src="/audelue/assets/app-icon-128.png" alt="" width="36" height="36"><span>Audelue</span></a>
-  <nav aria-label="Main navigation"><a href="/audelue/en/">Home</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/internal/privacy/" aria-current="page">Privacy</a><a class="language" href="/audelue/internal/privacy/" hreflang="zh-Hans" lang="zh-Hans">中文</a></nav>
-</div></header>
+<header class="site-header wrap">
+  <a class="wordmark" href="/audelue/en/" aria-label="Audelue home"><span class="brand-icon" aria-hidden="true"><img src="/audelue/assets/app-icon-128.png" alt="" width="30" height="30"></span><span>Audelue</span></a>
+  <nav aria-label="Main navigation"><a href="/audelue/en/">Home</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/internal/privacy/" aria-current="page">Privacy</a></nav>
+  <div class="header-actions"><button type="button" id="theme-switch" hidden aria-label="Switch to light mode">◐ <span data-theme-label>Light</span></button><a class="language-link" href="/audelue/internal/privacy/" hreflang="zh-Hans" lang="zh-Hans">中文</a></div>
+</header>
 <main id="main" class="page-shell">
   <header id="scope" class="page-intro">
     <p class="eyebrow">PRIVACY</p>
@@ -37,6 +38,7 @@
     <p>This policy covers the Audelue internal testing version distributed through TestFlight.</p>
     <p>Local processing requires no registration. With cloud Pro, you do not enter a provider API key. We verify App Store ownership to associate your cloud balance.</p>
   </header>
+  <nav class="contents" aria-label="On this page"><a href="#audio">1. Audio and local history</a><a href="#cloud">2. When you use cloud Pro</a><a href="#account">3. Cloud balance and purchases</a><a href="#controls">4. Your choices and deletion</a><a href="#other-services">5. Website and support</a><a href="#contact">6. Contact and updates</a></nav>
   <article class="document">
     <section aria-labelledby="audio"><h2 id="audio">1. Audio and local history</h2>
       <p>Audelue processes your selected system, app or microphone audio only after you start a session and grant the necessary permissions, for transcription and optional translation. Screen recording permission is used to capture audio, not screen video. Apple local mode processes audio and captions on your device without sending them to Audelue’s cloud service.</p>
@@ -67,6 +69,6 @@
     </section>
   </article>
 </main>
-<footer class="site-footer"><div class="footer-inner"><span>© 2026 ZHANG WENTIAN · Audelue</span><nav aria-label="Footer navigation"><a href="mailto:wentianzh.apps@outlook.com">wentianzh.apps@outlook.com</a><a href="/audelue/en/support/">Support</a><a href="/audelue/en/internal/privacy/">Privacy</a></nav></div></footer>
+<footer class="site-footer wrap"><div><a class="wordmark" href="/audelue/en/">Audelue</a><p>Live captions and optional translation for Mac.</p><small>© 2026 ZHANG WENTIAN</small></div><nav aria-label="Footer navigation"><a href="/audelue/en/support/">Help &amp; support</a><a href="/audelue/en/internal/privacy/">Privacy policy</a><a href="mailto:wentianzh.apps@outlook.com">Contact the developer</a></nav></footer>
 </body>
 </html>
